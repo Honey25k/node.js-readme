@@ -91,7 +91,7 @@ function init() {
             return generateMarkdown(input);
         })
         .then(markdown => {
-            writeToFile('./dist/README.md', markdown);
+            writeToFile('./utils/README.md', markdown);
         })
         .catch(err => {
             console.log(err);
