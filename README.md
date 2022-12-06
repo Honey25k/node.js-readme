@@ -79,7 +79,7 @@
 
   >Email: Honey93k@gmail.com 
 
-  >GitHub: [Honey](https://github.com/Honey25k)  
+  >GitHub: [Honey25k](https://github.com/Honey25k)  
 
   
     
