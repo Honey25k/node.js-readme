@@ -2,24 +2,25 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 if(license !== 'none') {
-  return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  return `![License: MIT](https://img.shields.io/badge/License-${license}MIT-yellow.svg)`
+} else if (license === 'MIT') {
+  return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
 } else {
   return ``; 
 }
 
-
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink(data) {
 
-  if (license.data === 'MIT') {
+  if (data.license === 'MIT') {
 
     return `
     ### MIT License 
 
-    > Copyright (c) [2022] [${license.user}]
+    > Copyright (c) [2022] [${data.user}]
     > 
     > __Permission is hereby granted, free of charge, to any person obtaining a copy__
     > __of this software and associated documentation files (the "Software"), to deal__
@@ -39,29 +40,29 @@ function renderLicenseLink(license) {
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
     `;
-  }
+  } else {
   return ``; 
-
+  }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(data) {
 
-  if (license.data !== 'none') {
+  if (data.license !== 'none') {
 
     return `
     ## License
-    ${renderLicenseLink(license)}
+    ${renderLicenseLink(data)}
 
-    `;
+    `
   } else {
     return `
     ## License
 
     There is no license for this project.
 
-    `;
+    `
 
   }
 
@@ -69,8 +70,10 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data);
   return `
   # ${data.title} ${renderLicenseBadge(data.license)} 
+  
   ## Description
 
   ${data.description}
@@ -88,8 +91,8 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  ${data.install}
-
+  ${data.installation}
+ 
   ## Usage
 
   ${data.usage}
@@ -113,6 +116,7 @@ function generateMarkdown(data) {
   >GitHub : [${data.user}](https://github.com/${data.user})
 
 `;
+
 
 } 
 

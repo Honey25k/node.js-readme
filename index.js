@@ -8,7 +8,7 @@ const { generateMarkdown } = require('./utils/generateMarkdown');
 const questions = [
     {
         type: "input ",
-        name: ["Github"],
+        name: ["user"],
         message: "What is your Github username?"
 
     },
@@ -79,7 +79,7 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if(err) throw err;
-        console.log('README has been created!')
+        console.log('Your README has been created!')
     })
 
 }
