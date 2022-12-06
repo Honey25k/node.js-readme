@@ -36,7 +36,7 @@
 
   After using the `node index.js` command, you will be given a number of questions you can answer. Once you answer all of the questions, the `README.md` file will be created in the `/utils` folder of the project. This process can be seen in the video below. From there you will be able to copy the README and paste it in your new project. 
 
-  ![Program Walkthrough Video](https://github.com/honey25k/node.js-readme-generator/blob/main/assets/video/readme-generator1.mp4)  
+  ![Program Walkthrough Video](https://github.com/honey25k/node.js-readme-generator/blob/main/assets/video/readme-generator1ny.mp4)  
 
 ## License:
 
