@@ -1,9 +1,9 @@
 
-  # tiiiii ![License: MIT](https://img.shields.io/badge/License-MITMIT-yellow.svg) 
+  # Title ![License: MIT](https://img.shields.io/badge/License-MITMIT-yellow.svg) 
   
   ## Description
 
-  dessss
+  Description
 
   ## Table of Contents
 
@@ -18,11 +18,11 @@
 
   ## Installation
 
-  instaalllll
+  Installation
  
   ## Usage
 
-  usageee
+  Usage
 
   
     ## License
@@ -54,11 +54,11 @@
 
   ## Contributing
 
-  gudielineeee
+  Contribution
 
   ## Tests
 
-  npm testttt
+  npm test
   
   ## Questions
 
