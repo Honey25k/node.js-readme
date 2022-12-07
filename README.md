@@ -36,7 +36,9 @@
 
   After using the `node index.js` command, you will be given a number of questions you can answer. Once you answer all of the questions, the `README.md` file will be created in the `/utils` folder of the project. This process can be seen in the video below. From there you will be able to copy the README and paste it in your new project. 
 
-  ![Program Walkthrough Video](https://github.com/honey25k/node.js-readme-generator/blob/main/assets/video/readme-generator1ny.mp4)  
+  You can watch this demo video to see how the program works: 
+  [Demo](https://youtu.be/tE3XpBilRpM) 
+  Watch the [demo](https://youtu.be/tE3XpBilRpM) to review the Readme generator. 
 
 ## License:
 
@@ -73,7 +75,7 @@
 
 ## Contributing
 
-  Feel free to fork this repo and make it your own! Pull requests are welcome.  
+  Pull requests are welcome. You can fork this repo and make it your own.    
   
   ## Questions?
 
